@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         animateImg = findViewById(R.id.animate_img);
         //XML 实现帧动画
 //        AnimationDrawable drawable = (AnimationDrawable) animateImg.getDrawable();
-
        // 代码实现 帧动画
         AnimationDrawable animateDrawable = new AnimationDrawable();
         animateImg.setImageDrawable(animateDrawable);
